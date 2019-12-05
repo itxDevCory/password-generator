@@ -1,41 +1,3 @@
-<!DOCTYPE html>
-    <html>
-    <title>Random Password Generator</title>
-    <head>
-    <script>
-    function pwGen(min, max) {
-        docvaument.write("xx");
-    }
-yy();
-</script>
-</head>
-<body>
-< h2 onclick = "passwordGen"Generate a Password</h2>
-
-    </body>
-    </html>
-
-     //ex.  need the html to connect with html for this
-    // detect clicks <div id="demo">Click here</div> see js//
-// document.getElementById('demo').onclick = function changeContent() {
-
-document.getElementById('demo').innerHTML = "Help me";
-document.getElementById('demo').style = "Color: red";
-
-}
-
-    //Cory Address these concerns with tutor Tues
-// Need a button: each time pushed a new password 8-128 char is generated and printed to screen
-// Req. slider
-// function need to specify length8
-// GIVEN that a user needs a new, secure password**
-
-WHEN prompted
-for password criteria
-
-
-
-THEN a password is generated
 
 var CHARACTER_SETS = [
 [true, "Numbers", "0123456789"],
@@ -44,6 +6,24 @@ var CHARACTER_SETS = [
 [false, "ASCII symbols", "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"],
 [false, "Space", " "],
 ];
+
+const min = 8;
+const max = 128;
+
+const generate = length => {
+    let result = [];
+
+    for (let i = 0; i < length; i++) {
+        let randomNum = Math.floor((Math.random() * (max - min)) + min);
+        let charConv = String.fromCharCode(randomNum);
+        result.push(charConv);
+    }
+
+    console.log(result.join(""));
+}
+
+const length = parseInt(process.argv[2]);
+generate(length);
 
 
 
@@ -61,19 +41,6 @@ return password;
 var generateButton
 var regSymbols - [  ]
 
-// if else if for length
-// length  => 0
-//if length <0  alert "input leg"
-
-//forEach or Char at ?? ( for a function once for each elemenrt in an array)
-
-
-//Cory REMEMBER:
-Configuration
-Globals Variables
-Initialize
-Function CryptoKeyPair
-Function pwGenerate characters, length
 
 
 
@@ -93,6 +60,23 @@ function makeid() {
         }
         Results.innerHTML = text;
     }
+    const min = 8;
+const max = 128;
+
+const generate = length => {
+    let result = [];
+}
+    for (let i = 0; i < length; i++) {
+        let randomNum = Math.floor((Math.random() * (max - min)) + min);
+        let charConv = String.fromCharCode(randomNum);
+        result.push(charConv);
+    }
+
+    console.log(result.join(""));
+}
+
+const length = parseInt(process.argv[2]);
+generate(length);
 // from dan
 
     function passwordLengthPrompt() ;
@@ -126,13 +110,13 @@ if (!include Uppter &&
 
     while(generatePW.length<options.passwordLength
         geeratedpw = genPw \random Elemtent
-        
+
         )
         passwordText.value= password
         generateBtc.add.eventlisternerr. generatePW
 
         getRID of any console localStorage
-}console.log so we can see it 
+}console.log so we can see it
 //create fuciton that makes pw
 
     function makePW(option) {
@@ -155,7 +139,7 @@ function makePassword(options)
       car gneeratePW= "";
 
       if(options.includeUppe)
-      var 
+      var
 )
 ))
 //rertimrm [ass
@@ -176,3 +160,5 @@ placeholder = "Enter 0-9" / >
          .attr("id", "myfieldid")
          .attr("name", "myfieldid")
          .appendTo("#form-0");
+
+         ----------------------------------------

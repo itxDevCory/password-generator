@@ -1,103 +1,33 @@
-//drop down button for password char length 8-128
-backgroundemulating_variable_width {
-    width: 500px;
-    height: 100px;
-    background-color: yellow;
+<style class="darkreader darkreader--user-agent" media="screen">html {
+    background-color: #181a1b !important;
 }
-
-input {
-    width: auto;
-    /*width:100%;*/
-    float: left;
-    font-size: 17px;
+html, body, input, textarea, select, button {
+    background-color: #181a1b;
 }
-
-#scope {
-    float: left;
+html, body, input, textarea, select, button {
+    border-color: #575757;
+    color: #e8e6e3;
 }
-
-button {
-    float: left;
-}''
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+a {
+    color: #3391ff;
 }
-
-body {
-  font-family: sans-serif;
+table {
+    border-color: #4c4c4c;
 }
-
-h1 {
-  text-align: center;
-  margin-top: 40px;
-  letter-spacing: 0.25em;
-  color: #001b44;
+::placeholder {
+    color: #bab5ab;
 }
-
-.img-container {
-  max-width: 1000px;
-  margin: 30px auto;
+::selection {
+    background-color: #005ccc;
+    color: #ffffff;
 }
-
-.img-container::after {
-  content: " ";
-  display: block;
-  clear: both;
+::-moz-selection {
+    background-color: #005ccc;
+    color: #ffffff;
 }
-
-img {
-  display: block;
-  float: left;
-  width: 23%;
-  height: 200px;
-  margin: 1%;
-  cursor: pointer;
-  object-fit: cover;
-  border-radius: 8px;
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #545b00 !important;
+    color: #e8e6e3 !important;
 }
-
-@media (max-width: 740px) {
-  img {
-    width: 48%;
-  }
-}
-
-
-actvityies stu
-for activity 19
-inder js handlecode
-
-1.make the box appear like in the solved
-(use css)
-
-to appear see modelElstyale display to blockquote(but call the function)
-need
-
-refer to html for the edit utton (people list)'
-
-need event listener on every button.  put on th evar list (people list)
-then bring it to the bootm
-peoplelistel.addevetnli
-
-fucntion handleclick(event) (passing an event)
-
-if(event.target.matches(button) anywhere it sees button)
-
-(in the solved version, we see the names appears at the top with fucntion calls at the bottom
-
-
-vars list top of js
-
-function.handleclick(event
-    event.)preventDefault().
-    if (event.target.matched("button"));
-    modalNameEl.textContent = Name;
-    if people[id].description
-
-
-    the ifs = the var  (ie. if current[currentId])
-
-    the function should also be the same -
