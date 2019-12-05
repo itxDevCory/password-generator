@@ -1,1 +1,103 @@
 //drop down button for password char length 8-128
+backgroundemulating_variable_width {
+    width: 500px;
+    height: 100px;
+    background-color: yellow;
+}
+
+input {
+    width: auto;
+    /*width:100%;*/
+    float: left;
+    font-size: 17px;
+}
+
+#scope {
+    float: left;
+}
+
+button {
+    float: left;
+}''
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 0.25em;
+  color: #001b44;
+}
+
+.img-container {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.img-container::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+img {
+  display: block;
+  float: left;
+  width: 23%;
+  height: 200px;
+  margin: 1%;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media (max-width: 740px) {
+  img {
+    width: 48%;
+  }
+}
+
+
+actvityies stu
+for activity 19
+inder js handlecode
+
+1.make the box appear like in the solved
+(use css)
+
+to appear see modelElstyale display to blockquote(but call the function)
+need
+
+refer to html for the edit utton (people list)'
+
+need event listener on every button.  put on th evar list (people list)
+then bring it to the bootm
+peoplelistel.addevetnli
+
+fucntion handleclick(event) (passing an event)
+
+if(event.target.matches(button) anywhere it sees button)
+
+(in the solved version, we see the names appears at the top with fucntion calls at the bottom
+
+
+vars list top of js
+
+function.handleclick(event
+    event.)preventDefault().
+    if (event.target.matched("button"));
+    modalNameEl.textContent = Name;
+    if people[id].description
+
+
+    the ifs = the var  (ie. if current[currentId])
+
+    the function should also be the same -
